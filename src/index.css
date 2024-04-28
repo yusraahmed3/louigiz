@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'Mistrully';
+    src: url(./assets/fonts/Mistrully.ttf);
+}
+
+@font-face {
+    font-family: 'LeagueSpartan';
+    src: url(./assets/fonts/LeagueSpartan-Regular.ttf);
+}
