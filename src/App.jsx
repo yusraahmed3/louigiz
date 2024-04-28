@@ -8,7 +8,7 @@ import Skin from "./pages/Skin/Skin";
 function App() {
   return (
     <div className="h-screen w-full bg-[#FAF9F8]">
-      <Router >
+      <Router basename="/louigiz/">
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/nail" element={<Nail/>}/>
