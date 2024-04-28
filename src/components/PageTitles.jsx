@@ -5,9 +5,9 @@ const PageTitles = () => {
     function renderCondition(){
    
         switch (window.location.pathname){
-            case '/beauty' : return 'Beauty';
-            case '/skin' : return 'Skin Care';
-            case '/home' : return 'Home Decor';
+            case '/louigiz/beauty' : return 'Beauty';
+            case '/louigiz/skin' : return 'Skin Care';
+            case '/louigiz/home' : return 'Home Decor';
         }
         
     }
