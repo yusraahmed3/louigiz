@@ -3,23 +3,13 @@ import Navbar from './Navbar'
 const PageTitles = () => {
     
     function renderCondition(){
-        // if(window.location.pathname === "/beauty"){
-        //     return 'Beauty Tips'
-        // }else if (window.location.pathname === "/skin"){
-        //     return 'Skin Care Tips'
-        // } else if (window.location.pathname === "/nail"){
-        //     return "Nail Art"
-        // }else if (window.location.pathname === "/home"){
-        //     return 'Home Decor'
-        // }else {
-        //     return 
-        // }
+   
         switch (window.location.pathname){
             case '/beauty' : return 'Beauty';
             case '/skin' : return 'Skin Care';
-            case '/nail': return 'Nail Art';
             case '/home' : return 'Home Decor';
         }
+        
     }
 
   return (

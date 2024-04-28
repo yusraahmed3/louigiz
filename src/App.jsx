@@ -1,4 +1,4 @@
-import {BrowserRouter as Router , Routes, Route} from "react-router-dom";
+import {HashRouter as Router , Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Nail from "./pages/Nail";
 import Beauty from "./pages/Beauty/Beauty";
@@ -15,7 +15,6 @@ function App() {
         <Route path="/beauty" element={<Beauty/>}/>
         <Route path="/home" element={<HomeDecor/>}/>
         <Route path="/skin" element={<Skin/>}/>
-
       </Routes>
       </Router>
       </div>

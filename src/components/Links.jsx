@@ -2,12 +2,12 @@ import React from "react"
 import { Link } from "react-router-dom"
 export default function Links() {
   return (
-    <div className='flex items-center w-full'>
-      <div className='w-full grid grid-flow-row md:grid-flow-col justify-center gap-5 text-center'>
+    <div className='flex w-full items-center'>
+      <div className='grid w-full grid-flow-row justify-center gap-5 text-center md:grid-flow-col'>
 
-        <Link to="/beauty"><div className='border border-[#855A3E] w-36 xl:w-44 rounded-lg p-3 font-custom2 hover:bg-[#855A3E] hover:border-[#855A3E] hover:text-[#FAF9F8] hover:cursor-pointer transform duration-200'>Beauty</div></Link>
-        <Link to="/skin"> <div className='border border-[#855A3E] w-36 xl:w-44 rounded-lg p-3 font-custom2 hover:bg-[#855A3E] hover:border-[#855A3E] hover:text-[#FAF9F8] hover:cursor-pointer transform duration-200'>Skin Care</div></Link>
-        <Link to="/home"><div className='border border-[#855A3E] w-36 xl:w-44 rounded-lg p-3 font-custom2 hover:bg-[#855A3E] hover:border-[#855A3E] hover:text-[#FAF9F8] hover:cursor-pointer transform duration-200'> Home Decor</div></Link>
+        <Link to="/beauty"><div className='w-36 transform rounded-lg border border-[#855A3E] p-3 font-custom2 duration-200 hover:cursor-pointer hover:border-[#855A3E] hover:bg-[#855A3E] hover:text-[#FAF9F8] xl:w-44'>Beauty</div></Link>
+        <Link to="/skin"> <div className='w-36 transform rounded-lg border border-[#855A3E] p-3 font-custom2 duration-200 hover:cursor-pointer hover:border-[#855A3E] hover:bg-[#855A3E] hover:text-[#FAF9F8] xl:w-44'>Skin Care</div></Link>
+        <Link to="/home"><div className='w-36 transform rounded-lg border border-[#855A3E] p-3 font-custom2 duration-200 hover:cursor-pointer hover:border-[#855A3E] hover:bg-[#855A3E] hover:text-[#FAF9F8] xl:w-44'> Home Decor</div></Link>
       </div>
 
     </div>
