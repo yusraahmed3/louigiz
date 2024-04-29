@@ -3,11 +3,11 @@ import Navbar from "./Navbar";
 const PageTitles = () => {
   function renderCondition() {
     switch (window.location.pathname) {
-      case "/beauty":
+      case "/louigiz/beauty":
         return "Beauty";
-      case "/skin":
+      case "/louigiz/skin":
         return "Skin Care";
-      case "/home":
+      case "/louigiz/home":
         return "Home Decor";
     }
   }
