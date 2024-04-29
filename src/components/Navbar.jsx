@@ -6,25 +6,25 @@ const NavLinks = () => {
   return (
     <>
       <Link
-        to="/louigiz/beauty"
+        to="/beauty"
         className={`hover:cursor-pointer ${
-          window.location.pathname === "/louigiz/beauty" && "font-custom"
+          window.location.pathname === "/beauty" && "font-custom"
         }`}
       >
         {" "}
         Beauty
       </Link>
       <Link
-        to="/louigiz/skin"
+        to="/skin"
         className={`hover:cursor-pointer ${
-          window.location.pathname === "/louigiz/skin" && "font-custom"
+          window.location.pathname === "/skin" && "font-custom"
         }`}
       >
         {" "}
         Skin
       </Link>
       <Link
-        to="/louigiz/home"
+        to="/home"
         className={`hover:cursor-pointer ${
           window.location.pathname === "/home" && "font-custom"
         }`}
@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-[20] mx-auto flex w-full flex-wrap items-center justify-between border-b border-b-[#855A3E] p-8 text-[#855A3E]">
-      <Link to="/louigiz/">
+      <Link to="">
         <h1 className="font-custom2 text-2xl font-bold md:text-4xl">
           louigiz.
         </h1>

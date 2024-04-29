@@ -11,11 +11,11 @@ function App() {
       
       <Router basename={import.meta.env.DEV ? '/' : '/louigiz/'}>
       <Routes>
-        <Route exact path="/louigiz" element={<Home/>}/>
-        <Route path="/louigiz/nail" element={<Nail/>}/>
-        <Route path="/louigiz/beauty" element={<Beauty/>}/>
-        <Route path="/louigiz/home" element={<HomeDecor/>}/>
-        <Route path="/louigiz/skin" element={<Skin/>}/>
+        <Route exact path="" element={<Home/>}/>
+        <Route path="/nail" element={<Nail/>}/>
+        <Route path="/beauty" element={<Beauty/>}/>
+        <Route path="/home" element={<HomeDecor/>}/>
+        <Route path="/skin" element={<Skin/>}/>
       </Routes>
       </Router>
       </div>
