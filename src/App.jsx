@@ -1,4 +1,4 @@
-import {HashRouter as Router , Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router , Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Nail from "./pages/Nail";
 import Beauty from "./pages/Beauty/Beauty";
@@ -8,16 +8,16 @@ import Skin from "./pages/Skin/Skin";
 function App() {
   return (
     <div className="h-screen w-full bg-[#FAF9F8]">
-      <Home/>
-      {/* <Router basename="/louigiz/">
+      
+      <Router basename={import.meta.env.DEV ? '/' : '/louigiz/'}>
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route path="/nail" element={<Nail/>}/>
-        <Route path="/beauty" element={<Beauty/>}/>
-        <Route path="/home" element={<HomeDecor/>}/>
-        <Route path="/skin" element={<Skin/>}/>
+        <Route exact path="/louigiz" element={<Home/>}/>
+        <Route path="/louigiz/nail" element={<Nail/>}/>
+        <Route path="/louigiz/beauty" element={<Beauty/>}/>
+        <Route path="/louigiz/home" element={<HomeDecor/>}/>
+        <Route path="/louigiz/skin" element={<Skin/>}/>
       </Routes>
-      </Router> */}
+      </Router>
       </div>
 
   )

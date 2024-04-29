@@ -11,36 +11,38 @@ import Home from './pages/Home';
 
 
 
-const router = createBrowserRouter([
-  {
-    path: '/louigiz/',
-    element: <App/>,
-    children: [
-      {
-        path: '/louigiz/',
-        element: <Home/>
-      },
-      {
-        path: '/louigiz/beauty',
-        element: <Beauty/>
-      },
-      {
-        path: '/louigiz/skin',
-        element: <Skin/>
-      },
-      {
-        path: '/louigiz/home',
-        element: <HomeDecor/>
-      }
+// const router = createBrowserRouter([
+//   {
+//     path: '/louigiz/',
+//     element: <App/>,
+//     children: [
+//       {
+//         path: '/louigiz/',
+//         element: <Home/>
+//       },
+//       {
+//         path: '/louigiz/beauty',
+//         element: <Beauty/>
+//       },
+//       {
+//         path: '/louigiz/skin',
+//         element: <Skin/>
+//       },
+//       {
+//         path: '/louigiz/home',
+//         element: <HomeDecor/>
+//       }
 
-    ] 
-  }
-])
+//     ],
+    
+//   },
+  
+// ])
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <App/>
   </React.StrictMode>,
 )
