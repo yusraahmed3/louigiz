@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="h-screen w-full bg-[#FAF9F8]">
       
-      <Router basename="/louigiz">
+      <Router basename="/">
       <Routes>
         <Route  path="/" element={<Home/>}/>
         <Route path="/nail" element={<Nail/>}/>
