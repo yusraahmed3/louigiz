@@ -2,15 +2,15 @@ import ReactGA from 'react-ga';
 
 const MeasurementID = "G-SRHZ6Y9MGS"
 
-export const initGA = () => {
+export const InitGA = () => {
   ReactGA.initialize(MeasurementID);
 };
 
-export const logPageView = () => {
+export const LogPageView = () => {
   ReactGA.pageview(window.location.pathname);
 };
 
-export const logEvent = (category = '', action = '', label = '') => {
+export const LogEvent = (category = '', action = '', label = '') => {
   if (category && action && label) {
     ReactGA.event({ category, action, label });
   }
