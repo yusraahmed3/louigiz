@@ -1,5 +1,5 @@
 import React from 'react'
-import { logEvent } from '../analytics'
+import { logEvent } from '/../analytics'
 const ImageBox = ({image, alt, key, title, link}) => {
   return (
     <div className='flex flex-col justify-center'>
