@@ -11,6 +11,9 @@ export default {
         custom2: ['LeagueSpartan', 'sans-serif']
         
       },
+      screens: {
+        '3xl': '2048px'
+      }
     },
   },
   plugins: [],

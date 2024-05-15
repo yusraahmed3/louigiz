@@ -8,7 +8,7 @@ const NavLinks = () => {
       <Link
         to="/beauty"
         className={`hover:cursor-pointer ${
-          window.location.pathname === "/beauty" && "font-custom"
+          window.location.hash === "#/beauty" && "font-custom"
         }`}
       >
         {" "}
@@ -17,7 +17,7 @@ const NavLinks = () => {
       <Link
         to="/skin"
         className={`hover:cursor-pointer ${
-          window.location.pathname === "/skin" && "font-custom"
+          window.location.hash === "#/skin" && "font-custom"
         }`}
       >
         {" "}
@@ -26,7 +26,7 @@ const NavLinks = () => {
       <Link
         to="/home"
         className={`hover:cursor-pointer ${
-          window.location.pathname === "/home" && "font-custom"
+          window.location.hash === "#/home" && "font-custom"
         }`}
       >
         Home Decor
@@ -45,16 +45,16 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-[20] mx-auto flex w-full flex-wrap items-center justify-between border-b border-b-[#855A3E] p-8 text-[#855A3E]">
       <Link to="/">
-        <h1 className="font-custom2 text-2xl font-bold md:text-4xl">
+        <h1 className="font-custom2 text-2xl font-bold md:text-4xl 3xl:text-5xl">
         Louigiz.
         </h1>
       </Link>
 
       <div className="flex w-1/5 justify-end">
-        <div className="hidden w-full justify-between font-custom2 text-lg font-bold lg:flex">
+        <div className="hidden w-full justify-between font-custom2 text-lg font-bold lg:flex 2xl:text-xl 3xl:text-2xl">
           <NavLinks />
         </div>
-        <div className="cursor-pointer text-xl text-[#855A3E] lg:hidden">
+        <div className="cursor-pointer text-2xl text-[#855A3E] lg:hidden">
           <button onClick={toggleNavbar}>
             {isOpen ? <IoMdClose /> : <IoMdMenu />}
           </button>
@@ -63,7 +63,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
           <div
-            className="flex basis-full flex-col items-end pt-5 font-custom2 font-bold lg:hidden"
+            className="flex basis-full flex-col items-end pt-5 font-custom2 text-lg font-bold lg:hidden 2xl:text-xl"
           >
             <NavLinks />
           </div>
