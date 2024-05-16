@@ -9,6 +9,10 @@ import skin8 from '../../assets/images/skin/8.jpg'
 import skin9 from '../../assets/images/skin/9.jpg'
 import skin10 from '../../assets/images/skin/10.jpg'
 import skin11 from '../../assets/images/skin/11.jpg'
+import skin12 from '../../assets/images/skin/12.jpg'
+import skin13 from '../../assets/images/skin/13.jpg'
+import skin14 from '../../assets/images/skin/14.jpg'
+
 
 
 const skinList = [
@@ -88,7 +92,29 @@ const skinList = [
         alt: 'image 11',
         title: 'Centella Tone Brightning Ampoule',
         link: 'https://amzn.to/3U0qLoW'
+    },
+    {
+        id: 12,
+        src: skin12,
+        alt: 'image 12',
+        title: 'Medicube Age-R Booster H - Korean No.1 Skin Care Device',
+        link: 'https://amzn.to/3K46ZnX'
+    },
+    {
+        id: 13,
+        src: skin13,
+        alt: 'image 13',
+        title: 'ANUA Heartleaf Deep Cleansing Foam',
+        link: 'https://amzn.to/3K2r65Z'
+    },
+    {
+        id: 14,
+        src: skin14,
+        alt: 'image 14',
+        title: 'The Ordinary Peeling Solution And Hyaluronic Face Serum',
+        link: 'https://amzn.to/3V15363'
     }
+   
 ]
 
 export default skinList

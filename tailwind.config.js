@@ -1,9 +1,7 @@
+
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+module.exports = {
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -12,9 +10,10 @@ export default {
         
       },
       screens: {
-        '3xl': '2048px'
+        '3xl': '1920px'
       }
     },
+    
   },
   plugins: [],
 }

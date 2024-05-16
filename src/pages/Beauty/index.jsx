@@ -43,6 +43,7 @@ import beauty42 from '../../assets/images/beauty/42.jpg'
 import beauty43 from '../../assets/images/beauty/43.jpg'
 import beauty44 from '../../assets/images/beauty/44.jpg'
 import beauty45 from '../../assets/images/beauty/45.jpg'
+import beauty46 from '../../assets/images/beauty/46.jpg'
 
 
 const beautyList = [
@@ -361,6 +362,13 @@ const beautyList = [
         alt: 'image 45',
         title: 'NYX PROFESSIONAL MAKEUP This Is Milky Gloss',
         link: 'https://amzn.to/3K3W2Tq'
+    },
+    {
+        id: 46,
+        src: beauty46,
+        alt: 'image 46',
+        title: 'Natasha Denona The Ultimate Rose Lip Set',
+        link: 'https://amzn.to/4aiueWh'
     },
 
 ]
