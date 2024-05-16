@@ -42,8 +42,7 @@ import beauty41 from '../../assets/images/beauty/41.jpg'
 import beauty42 from '../../assets/images/beauty/42.jpg'
 import beauty43 from '../../assets/images/beauty/43.jpg'
 import beauty44 from '../../assets/images/beauty/44.jpg'
-
-
+import beauty45 from '../../assets/images/beauty/45.jpg'
 
 
 const beautyList = [
@@ -355,6 +354,13 @@ const beautyList = [
         alt: 'image 44',
         title: 'Gisou Honey Infused Hydrating Lip Oil Trio',
         link: 'https://amzn.to/4aOdBTh'
+    },
+    {
+        id: 45,
+        src: beauty45,
+        alt: 'image 45',
+        title: 'NYX PROFESSIONAL MAKEUP This Is Milky Gloss',
+        link: 'https://amzn.to/3K3W2Tq'
     },
 
 ]
