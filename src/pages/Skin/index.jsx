@@ -12,6 +12,9 @@ import skin11 from '../../assets/images/skin/11.jpg'
 import skin12 from '../../assets/images/skin/12.jpg'
 import skin13 from '../../assets/images/skin/13.jpg'
 import skin14 from '../../assets/images/skin/14.jpg'
+import skin15 from '../../assets/images/skin/15.jpg'
+import skin16 from '../../assets/images/skin/16.jpg'
+
 
 
 
@@ -113,7 +116,22 @@ const skinList = [
         alt: 'image 14',
         title: 'The Ordinary Peeling Solution And Hyaluronic Face Serum',
         link: 'https://amzn.to/3V15363'
+    },
+    {
+        id: 15,
+        src: skin15,
+        alt: 'image 15',
+        title: 'COSRX Snail Mucin 96% Power Repairing Essence',
+        link: 'https://amzn.to/3K3i5K6'
+    },
+    {
+        id: 16,
+        src: skin16,
+        alt: 'image 16',
+        title: 'Kojie San Skin Brightening Soap',
+        link: 'https://amzn.to/3wJruU3'
     }
+   
    
 ]
 

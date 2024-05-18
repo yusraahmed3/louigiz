@@ -44,6 +44,7 @@ import beauty43 from '../../assets/images/beauty/43.jpg'
 import beauty44 from '../../assets/images/beauty/44.jpg'
 import beauty45 from '../../assets/images/beauty/45.jpg'
 import beauty46 from '../../assets/images/beauty/46.jpg'
+import beauty47 from '../../assets/images/beauty/47.jpg'
 
 
 const beautyList = [
@@ -369,6 +370,13 @@ const beautyList = [
         alt: 'image 46',
         title: 'Natasha Denona The Ultimate Rose Lip Set',
         link: 'https://amzn.to/4aiueWh'
+    },
+    {
+        id: 47,
+        src: beauty47,
+        alt: 'image 47',
+        title: 'COLOR WOW Dream Coat Supernatural Spray',
+        link: 'https://amzn.to/4dHghE1'
     },
 
 ]
