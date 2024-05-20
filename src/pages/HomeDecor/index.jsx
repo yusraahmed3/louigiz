@@ -15,7 +15,13 @@ import home14 from '../../assets/images/homedecor/14.jpg'
 import home15 from '../../assets/images/homedecor/15.webp'
 import home16 from '../../assets/images/homedecor/16.jpg'
 import home17 from '../../assets/images/homedecor/17.jpg'
-
+import home18 from '../../assets/images/homedecor/18.jpg'
+import home19 from '../../assets/images/homedecor/19.jpg'
+import home20 from '../../assets/images/homedecor/20.jpg'
+import home21 from '../../assets/images/homedecor/21.jpg'
+import home22 from '../../assets/images/homedecor/22.jpg'
+import home23 from '../../assets/images/homedecor/23.jpg'
+import home24 from '../../assets/images/homedecor/24.jpg'
 
 
 
@@ -138,6 +144,55 @@ const homeList = [
         alt: 'image 17',
         title: 'LANDGOO 360° Rotatable Wooden Led Wall Lamp',
         link: 'https://amzn.to/3TWHolx'
+    },
+    {
+        id: 18,
+        src: home18,
+        alt: 'image 18',
+        title: 'COLAMY Upholstered Velvet Barrel Accent Chair with Storage Ottoman',
+        link: 'https://amzn.to/44O2yqV'
+    },
+    {
+        id: 19,
+        src: home19,
+        alt: 'image 19',
+        title: 'Small LED Dimmable Table Lamp',
+        link: 'https://amzn.to/3yqZuoJ'
+    },
+    {
+        id: 20,
+        src: home20,
+        alt: 'image 20',
+        title: 'SAFAVIEH Natura Collection Area Rug',
+        link: 'https://amzn.to/3K7ivyX'
+    },
+    {
+        id: 21,
+        src: home21,
+        alt: 'image 21',
+        title: 'Arched Full Length Mirror',
+        link: 'https://amzn.to/4dLBc96'
+    },  
+    {
+        id: 22,
+        src: home22,
+        alt: 'image 22',
+        title: 'Black Soft Carpet',
+        link: 'https://amzn.to/4bkcXx4'
+    }, 
+     {
+        id: 23,
+        src: home23,
+        alt: 'image 23',
+        title: 'Yusong Modern Wood Coffee Table',
+        link: 'https://amzn.to/3K6BVnN'
+    },
+    {
+        id: 24,
+        src: home24,
+        alt: 'image 24',
+        title: 'Acanva Modern Oversized Modular L Shaped Sectional Sofa ',
+        link: 'https://amzn.to/3ynGuHD'
     },
 
     
