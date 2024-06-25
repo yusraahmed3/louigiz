@@ -9,7 +9,7 @@ const PageTitles = () => {
       case "#/skin":
         return "Skin Care";
       case "#/home":
-        return "Home Decor";
+        return "Home";
     }
   }
 

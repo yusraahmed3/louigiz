@@ -14,6 +14,7 @@ import skin13 from '../../assets/images/skin/13.jpg'
 import skin14 from '../../assets/images/skin/14.jpg'
 import skin15 from '../../assets/images/skin/15.jpg'
 import skin16 from '../../assets/images/skin/16.jpg'
+import skin17 from '../../assets/images/skin/17.jpg'
 
 
 
@@ -130,6 +131,13 @@ const skinList = [
         alt: 'image 16',
         title: 'Kojie San Skin Brightening Soap',
         link: 'https://amzn.to/3wJruU3'
+    },
+    {
+        id: 17,
+        src: skin17,
+        alt: 'image 17',
+        title: 'La Roche-Posay Ultra Concentrated Daily Serum',
+        link: 'https://amzn.to/3RGdKR8'
     }
    
    

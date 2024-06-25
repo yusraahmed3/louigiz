@@ -45,6 +45,7 @@ import beauty44 from '../../assets/images/beauty/44.jpg'
 import beauty45 from '../../assets/images/beauty/45.jpg'
 import beauty46 from '../../assets/images/beauty/46.jpg'
 import beauty47 from '../../assets/images/beauty/47.jpg'
+import beauty48 from '../../assets/images/beauty/48.jpg'
 
 
 const beautyList = [
@@ -377,6 +378,13 @@ const beautyList = [
         alt: 'image 47',
         title: 'COLOR WOW Dream Coat Supernatural Spray',
         link: 'https://amzn.to/4dHghE1'
+    },
+    {
+        id: 48,
+        src: beauty48,
+        alt: 'image 48',
+        title: 'Maybelline Super Stay Matte Ink Liquid Lipstick',
+        link: 'https://amzn.to/3VTERL0'
     },
 
 ]

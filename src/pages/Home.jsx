@@ -1,7 +1,6 @@
 import React from 'react'
 import Links from '../components/Links'
 import Logo from '../components/Logo'
-import Background from '../assets/images/background.png'
 
 function Home() {
   return (

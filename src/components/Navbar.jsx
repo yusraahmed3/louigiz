@@ -29,7 +29,7 @@ const NavLinks = () => {
           window.location.hash === "#/home" && "font-custom"
         }`}
       >
-        Home Decor
+        Home
       </Link>
     </>
   );

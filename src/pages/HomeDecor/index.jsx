@@ -22,6 +22,7 @@ import home21 from '../../assets/images/homedecor/21.jpg'
 import home22 from '../../assets/images/homedecor/22.jpg'
 import home23 from '../../assets/images/homedecor/23.jpg'
 import home24 from '../../assets/images/homedecor/24.jpg'
+import home25 from '../../assets/images/homedecor/25.jpg'
 
 
 
@@ -193,6 +194,13 @@ const homeList = [
         alt: 'image 24',
         title: 'Acanva Modern Oversized Modular L Shaped Sectional Sofa ',
         link: 'https://amzn.to/3ynGuHD'
+    },
+    {
+        id: 25,
+        src: home25,
+        alt: 'image 25',
+        title: 'Kitchen Knife Set ',
+        link: 'https://amzn.to/3xz1IlW'
     },
 
     
