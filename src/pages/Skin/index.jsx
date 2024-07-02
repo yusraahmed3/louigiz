@@ -15,7 +15,9 @@ import skin14 from '../../assets/images/skin/14.jpg'
 import skin15 from '../../assets/images/skin/15.jpg'
 import skin16 from '../../assets/images/skin/16.jpg'
 import skin17 from '../../assets/images/skin/17.jpg'
-
+import skin18 from '../../assets/images/skin/18.jpg'
+import skin19 from '../../assets/images/skin/19.jpg'
+import skin20 from '../../assets/images/skin/20.jpg'
 
 
 
@@ -138,7 +140,36 @@ const skinList = [
         alt: 'image 17',
         title: 'La Roche-Posay Ultra Concentrated Daily Serum',
         link: 'https://amzn.to/3RGdKR8'
-    }
+    },
+    {
+        id: 18,
+        src: skin18,
+        alt: 'image 18',
+        title: 'Grace & Stella Under Eye Mask',
+        link: 'https://amzn.to/4brtY7Y'
+    },
+    {
+        id: 19,
+        src: skin19,
+        alt: 'image 19',
+        title: 'TruSkin Vitamin C Face Serum',
+        link: 'https://amzn.to/3XN68jD'
+    },
+    {
+        id: 20,
+        src: skin20,
+        alt: 'image 20',
+        title: 'Grace & Stella Award Winning Under Eye Mask (Blue, 6 Pairs) ',
+        link: 'https://amzn.to/4brYpdZ'
+    },
+    {
+        id: 21,
+        src: skin21,
+        alt: 'image 21',
+        title: 'La Roche-Posay Effaclar Salicylic Acid Acne Treatment to Minimize Pores',
+        link: 'https://amzn.to/3XSI5jz'
+    },
+    
    
    
 ]
