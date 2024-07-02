@@ -160,15 +160,15 @@ const skinList = [
         id: 20,
         src: skin20,
         alt: 'image 20',
-        title: 'Grace & Stella Award Winning Under Eye Mask (Blue, 6 Pairs) ',
-        link: 'https://amzn.to/4brYpdZ'
+        title: 'Grace & Stella Award Winning Under Eye Mask Blue ',
+        link: 'https://amzn.to/3VVqSDw'
     },
     {
         id: 21,
         src: skin21,
         alt: 'image 21',
         title: 'La Roche-Posay Effaclar Salicylic Acid Acne Treatment to Minimize Pores',
-        link: 'https://amzn.to/3XSI5jz'
+        link: 'https://amzn.to/3VO1yPx'
     },
     
    
