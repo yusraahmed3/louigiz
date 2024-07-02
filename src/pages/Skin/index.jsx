@@ -18,6 +18,7 @@ import skin17 from '../../assets/images/skin/17.jpg'
 import skin18 from '../../assets/images/skin/18.jpg'
 import skin19 from '../../assets/images/skin/19.jpg'
 import skin20 from '../../assets/images/skin/20.jpg'
+import skin21 from '../../assets/images/skin/21.jpg'
 
 
 
