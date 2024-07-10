@@ -46,6 +46,7 @@ import beauty45 from '../../assets/images/beauty/45.jpg'
 import beauty46 from '../../assets/images/beauty/46.jpg'
 import beauty47 from '../../assets/images/beauty/47.jpg'
 import beauty48 from '../../assets/images/beauty/48.jpg'
+import beauty49 from '../../assets/images/beauty/49.jpg'
 
 
 const beautyList = [
@@ -385,6 +386,13 @@ const beautyList = [
         alt: 'image 48',
         title: 'Maybelline Super Stay Matte Ink Liquid Lipstick',
         link: 'https://amzn.to/3VTERL0'
+    },
+    {
+        id: 49,
+        src: beauty49,
+        alt: 'image 49',
+        title: 'AGE 20s Natural Coverage Foundation',
+        link: 'https://amzn.to/3LhFw2Q'
     },
 
 ]
