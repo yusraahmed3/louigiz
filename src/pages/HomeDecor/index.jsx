@@ -23,8 +23,9 @@ import home22 from '../../assets/images/homedecor/22.jpg'
 import home23 from '../../assets/images/homedecor/23.jpg'
 import home24 from '../../assets/images/homedecor/24.jpg'
 import home25 from '../../assets/images/homedecor/25.jpg'
-
-
+import home26 from '../../assets/images/homedecor/26.jpg'
+import home27 from '../../assets/images/homedecor/27.jpg'
+import home28 from '../../assets/images/homedecor/28.jpg'
 
 const homeList = [
     {
@@ -201,6 +202,27 @@ const homeList = [
         alt: 'image 25',
         title: 'Kitchen Knife Set ',
         link: 'https://amzn.to/3xz1IlW'
+    },
+    {
+        id: 26,
+        src: home26,
+        alt: 'image 26',
+        title: 'mopio Sophie 51" Ottoman Storage Bench',
+        link: 'https://amzn.to/3zNyOPr'
+    },
+    {
+        id: 27,
+        src: home27,
+        alt: 'image 27',
+        title: 'Dimmable Wall Sconce Battery Powered with Remote Control',
+        link: 'https://amzn.to/4bDy3G1'
+    },
+    {
+        id: 28,
+        src: home28,
+        alt: 'image 28',
+        title: 'Artificial Olive Tree',
+        link: 'https://amzn.to/4ctNfqx'
     },
 
     

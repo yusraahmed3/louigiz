@@ -47,7 +47,7 @@ import beauty46 from '../../assets/images/beauty/46.jpg'
 import beauty47 from '../../assets/images/beauty/47.jpg'
 import beauty48 from '../../assets/images/beauty/48.jpg'
 import beauty49 from '../../assets/images/beauty/49.jpg'
-
+import beauty50 from '../../assets/images/beauty/50.jpg'
 
 const beautyList = [
     {
@@ -393,6 +393,13 @@ const beautyList = [
         alt: 'image 49',
         title: 'AGE 20s Natural Coverage Foundation',
         link: 'https://amzn.to/3LhFw2Q'
+    },
+    {
+        id: 50,
+        src: beauty50,
+        alt: 'image 50',
+        title: 'TIRTIR Mask Fit Red Cushion Foundation',
+        link: 'https://amzn.to/4f37ugg'
     },
 
 ]
