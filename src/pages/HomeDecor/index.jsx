@@ -24,12 +24,10 @@ import home23 from '../../assets/images/homedecor/23.jpg'
 import home24 from '../../assets/images/homedecor/24.jpg'
 import home25 from '../../assets/images/homedecor/25.jpg'
 import home26 from '../../assets/images/homedecor/26.jpg'
-<<<<<<< HEAD
-
-=======
 import home27 from '../../assets/images/homedecor/27.jpg'
 import home28 from '../../assets/images/homedecor/28.jpg'
->>>>>>> 9b6b576e2a2a0419cf60d7597f359627fa1c9ce6
+import home29 from '../../assets/images/homedecor/29.jpg'
+
 
 const homeList = [
     {
@@ -211,12 +209,6 @@ const homeList = [
         id: 26,
         src: home26,
         alt: 'image 26',
-<<<<<<< HEAD
-        title: 'Ninja\'s Ice Cream Maker ',
-        link: 'https://amzn.to/4f624Bt'
-    },
-    
-=======
         title: 'mopio Sophie 51" Ottoman Storage Bench',
         link: 'https://amzn.to/3zNyOPr'
     },
@@ -234,7 +226,13 @@ const homeList = [
         title: 'Artificial Olive Tree',
         link: 'https://amzn.to/4ctNfqx'
     },
->>>>>>> 9b6b576e2a2a0419cf60d7597f359627fa1c9ce6
+    {
+        id: 29,
+        src: home29,
+        alt: 'image 29',
+        title: 'Ninja Ice Cream Maker',
+        link: 'https://amzn.to/3VWa4vO'
+    },
 
     
 
