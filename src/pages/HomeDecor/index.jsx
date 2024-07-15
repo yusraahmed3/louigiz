@@ -23,7 +23,7 @@ import home22 from '../../assets/images/homedecor/22.jpg'
 import home23 from '../../assets/images/homedecor/23.jpg'
 import home24 from '../../assets/images/homedecor/24.jpg'
 import home25 from '../../assets/images/homedecor/25.jpg'
-
+import home26 from '../../assets/images/homedecor/26.jpg'
 
 
 const homeList = [
@@ -202,6 +202,14 @@ const homeList = [
         title: 'Kitchen Knife Set ',
         link: 'https://amzn.to/3xz1IlW'
     },
+    {
+        id: 26,
+        src: home26,
+        alt: 'image 26',
+        title: 'Ninja\'s Ice Cream Maker ',
+        link: 'https://amzn.to/4f624Bt'
+    },
+    
 
     
 

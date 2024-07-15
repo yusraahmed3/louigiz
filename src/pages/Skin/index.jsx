@@ -19,7 +19,7 @@ import skin18 from '../../assets/images/skin/18.jpg'
 import skin19 from '../../assets/images/skin/19.jpg'
 import skin20 from '../../assets/images/skin/20.jpg'
 import skin21 from '../../assets/images/skin/21.jpg'
-
+import skin22 from '../../assets/images/skin/22.jpg'
 
 
 const skinList = [
@@ -170,7 +170,13 @@ const skinList = [
         title: 'La Roche-Posay Effaclar Salicylic Acid Acne Treatment to Minimize Pores',
         link: 'https://amzn.to/3VO1yPx'
     },
-    
+    {
+        id: 22,
+        src: skin22,
+        alt: 'image 22',
+        title: 'TIRTIR Milk Skin Toner',
+        link: 'https://amzn.to/4cF67D4'
+    },
    
    
 ]
