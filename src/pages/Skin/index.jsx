@@ -20,6 +20,7 @@ import skin19 from '../../assets/images/skin/19.jpg'
 import skin20 from '../../assets/images/skin/20.jpg'
 import skin21 from '../../assets/images/skin/21.jpg'
 import skin22 from '../../assets/images/skin/22.jpg'
+import skin23 from '../../assets/images/skin/23.jpg'
 
 
 const skinList = [
@@ -176,6 +177,13 @@ const skinList = [
         alt: 'image 22',
         title: 'TIRTIR Milk Skin Toner',
         link: 'https://amzn.to/4cF67D4'
+    },
+    {
+        id: 23,
+        src: skin23,
+        alt: 'image 23',
+        title: 'Beauty of Joseon Ground Rice and Honey Glow Mask ',
+        link: 'https://amzn.to/3zQPpC7'
     },
    
    
