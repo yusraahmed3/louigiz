@@ -49,6 +49,7 @@ import beauty48 from '../../assets/images/beauty/48.jpg'
 import beauty49 from '../../assets/images/beauty/49.jpg'
 import beauty50 from '../../assets/images/beauty/50.jpg'
 import beauty51 from '../../assets/images/beauty/51.jpg'
+import beauty52 from '../../assets/images/beauty/52.jpg'
 
 const beautyList = [
     {
