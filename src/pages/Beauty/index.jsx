@@ -48,6 +48,7 @@ import beauty47 from '../../assets/images/beauty/47.jpg'
 import beauty48 from '../../assets/images/beauty/48.jpg'
 import beauty49 from '../../assets/images/beauty/49.jpg'
 import beauty50 from '../../assets/images/beauty/50.jpg'
+import beauty51 from '../../assets/images/beauty/51.jpg'
 
 const beautyList = [
     {
@@ -400,6 +401,20 @@ const beautyList = [
         alt: 'image 50',
         title: 'TIRTIR Mask Fit Red Cushion Foundation',
         link: 'https://amzn.to/4f37ugg'
+    },
+    {
+        id: 51,
+        src: beauty51,
+        alt: 'image 51',
+        title: 'L\'Oreal Paris Air Volume Mega Mascara',
+        link: 'https://amzn.to/3yyQEWp'
+    },
+    {
+        id: 52,
+        src: beauty52,
+        alt: 'image 52',
+        title: 'Crest 3D Teeth Whitening Strip Kit',
+        link: 'https://amzn.to/3Aw121w'
     },
 
 ]
