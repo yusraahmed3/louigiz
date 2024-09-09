@@ -21,6 +21,9 @@ import skin20 from '../../assets/images/skin/20.jpg'
 import skin21 from '../../assets/images/skin/21.jpg'
 import skin22 from '../../assets/images/skin/22.jpg'
 import skin23 from '../../assets/images/skin/23.jpg'
+import skin24 from '../../assets/images/skin/24.jpg'
+import skin25 from '../../assets/images/skin/25.jpg'
+
 
 
 const skinList = [
@@ -185,7 +188,20 @@ const skinList = [
         title: 'Beauty of Joseon Ground Rice and Honey Glow Mask ',
         link: 'https://amzn.to/3zQPpC7'
     },
-   
+    {
+        id: 24,
+        src: skin24,
+        alt: 'image 24',
+        title: 'Beauty of Joseon Daily Relief Sunscreen',
+        link: 'https://amzn.to/47hTvzI'
+    },
+    {
+        id: 25,
+        src: skin25,
+        alt: 'image 25',
+        title: 'ANUA Rice 70 Glow Milky Toner',
+        link: 'https://amzn.to/47hZg0y'
+    },
    
 ]
 
