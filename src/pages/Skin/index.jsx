@@ -206,7 +206,7 @@ const skinList = [
         id: 26,
         src: skin26,
         alt: 'image 26',
-        title: 'Medicube Peel off Mask',
+        title: 'Medicube Peel off Mask With Jelly Brush',
         link: 'https://amzn.to/4ixY7X6'
     },
    
