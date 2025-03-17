@@ -23,7 +23,7 @@ import skin22 from '../../assets/images/skin/22.jpg'
 import skin23 from '../../assets/images/skin/23.jpg'
 import skin24 from '../../assets/images/skin/24.jpg'
 import skin25 from '../../assets/images/skin/25.jpg'
-
+import skin26 from '../../assets/images/skin/26.jpg'
 
 
 const skinList = [
@@ -201,6 +201,13 @@ const skinList = [
         alt: 'image 25',
         title: 'ANUA Rice 70 Glow Milky Toner',
         link: 'https://amzn.to/47hZg0y'
+    },
+    {
+        id: 26,
+        src: skin26,
+        alt: 'image 26',
+        title: 'Medicube Peel off Mask',
+        link: 'https://amzn.to/4ixY7X6'
     },
    
 ]
