@@ -24,7 +24,7 @@ import skin23 from '../../assets/images/skin/23.jpg'
 import skin24 from '../../assets/images/skin/24.jpg'
 import skin25 from '../../assets/images/skin/25.jpg'
 import skin26 from '../../assets/images/skin/26.jpg'
-
+import skin27 from '../../assets/images/skin/27.jpg'
 
 const skinList = [
     {
@@ -208,6 +208,13 @@ const skinList = [
         alt: 'image 26',
         title: 'Medicube Peel off Duo Mask With Jelly Brush',
         link: 'https://amzn.to/4ixY7X6'
+    },
+    {
+        id: 27,
+        src: skin27,
+        alt: 'image 27',
+        title: 'Embryolisse Lait-Crème Concentré, Multifunction Daily Moisturizer, Primer, and Makeup Remover',
+        link: 'https://amzn.to/4je6Qht'
     },
    
 ]

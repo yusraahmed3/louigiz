@@ -50,6 +50,8 @@ import beauty49 from '../../assets/images/beauty/49.jpg'
 import beauty50 from '../../assets/images/beauty/50.jpg'
 import beauty51 from '../../assets/images/beauty/51.jpg'
 import beauty52 from '../../assets/images/beauty/52.jpg'
+import beauty53 from '../../assets/images/beauty/53.jpg'
+import beauty54 from '../../assets/images/beauty/54.jpg'
 
 const beautyList = [
     {
@@ -416,6 +418,20 @@ const beautyList = [
         alt: 'image 52',
         title: 'Crest 3D Teeth Whitening Strip Kit',
         link: 'https://amzn.to/3Aw121w'
+    },
+    {
+        id: 53,
+        src: beauty53,
+        alt: 'image 53',
+        title: 'Urban Decay All Nighter Waterproof Makeup Setting Spray',
+        link: 'https://amzn.to/42hPVUo'
+    },
+    {
+        id: 54,
+        src: beauty54,
+        alt: 'image 54',
+        title: 'Too Faced Better Than Sex Volumizing Mascara',
+        link: 'https://amzn.to/3R0FPC2'
     },
 
 ]
